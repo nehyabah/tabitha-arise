@@ -3,17 +3,13 @@
   flex-direction: column;
   justify-content: flex-end; /* Align content to the bottom */
   align-items: center;
-  background-image: url("https://res.cloudinary.com/djjxmi9xc/image/upload/v1706568016/AdobeStock_599816949_flgfme.jpg");
+  background-image: url("https://res.cloudinary.com/djjxmi9xc/image/upload/v1706635720/AdobeStock_280010695_ainsds.jpg");
   background-size: cover;
   background-position: center;
   text-align: center;
   padding: 20px;
-  color: white;
-<<<<<<< HEAD
+  color: rgb(60, 60, 60);
   height: 80vh;
-=======
-  height: 82vh;
->>>>>>> trial
   position: relative; /* Needed for overlay positioning */
   font-family: "Poppins", sans-serif;
 }
@@ -26,11 +22,6 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.7),
-    /* Darker at the bottom */ rgba(0, 0, 0, 0.4) /* Lighter at the top */
-  );
 
   z-index: 1; /* Ensures overlay is behind the content */
 }

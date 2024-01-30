@@ -9,7 +9,15 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-family: "Poppins", sans-serif;
   z-index: 1000; /* High z-index */
+<<<<<<< HEAD
   position: relative; /* Required for z-index to work */
+=======
+  position: sticky; /* Make header stick to the top */
+  top: 0; /* Stick to the very top of the page */
+  backdrop-filter: blur(10px); /* Glass effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  background-color: rgba(255, 255, 255, 0.8);
+>>>>>>> trial
 }
 
 .headerLogo img {
