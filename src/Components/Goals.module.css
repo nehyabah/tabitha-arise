@@ -1,0 +1,87 @@
+.container {
+  max-width: 80%;
+  height: 40vh;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #333; /* Dark text color */
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.sliderWrapper {
+  margin-top: 2rem;
+
+  padding: 1rem;
+  background: #402e2e; /* White background for the slider */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative; /* Add this to make it a positioned container */
+}
+
+.slide {
+  outline: none;
+}
+
+.goal {
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #eee; /* Subtle divider between goals */
+}
+
+.goalCategory {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3e3e3e; /* Accent color */
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.goalText {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #444; /* Dark text color */
+  text-align: center;
+  font-weight: 300;
+}
+
+/* Slick slider overrides */
+.slick-dots {
+  bottom: -20px;
+  li button:before {
+    color: #007aff; /* Accent color for navigation dots */
+  }
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #007aff; /* Accent color for navigation arrows */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+
+  .sliderWrapper {
+    padding: 0.5rem;
+  }
+
+  .goalCategory {
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
+  }
+
+  .goalText {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+}
