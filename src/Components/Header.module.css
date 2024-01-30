@@ -1,0 +1,130 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  height: 60px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+  z-index: 1000; /* High z-index */
+  position: relative; /* Required for z-index to work */
+}
+
+.headerLogo img {
+  height: 60px; /* Adjusted to fit within the header */
+  width: 10rem; /* Maintain aspect ratio */
+  cursor: pointer;
+}
+
+.headerNav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  transition: right 0.3s;
+}
+
+.headerNav.open {
+  right: 0;
+  position: fixed;
+  top: 80px; /* Adjusted to the height of the header */
+  width: 60%;
+  background-color: rgba(255, 241, 243, 0.8); /* Semi-transparent white */
+  backdrop-filter: blur(7px); /* Increased blur for a glassier effect */
+  -webkit-backdrop-filter: blur(15px); /* For Safari browser support */
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bolder shadow for depth */
+  height: 35rem;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Lighter border for a frosty edge */
+
+  z-index: 2000; /* Higher than the header */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Ensures content fits within the rounded corners */
+}
+
+.headerNav.open a {
+  text-align: center;
+  /* width: 100%; */
+  margin: 15px 0; /* Increased spacing between items */
+  font-size: 1.2rem; /* Larger font size for readability */
+  transition: color 0.3s ease, transform 0.3s ease;
+  color: #333333; /* Dark color for contrast */
+}
+
+.headerNav a {
+  color: #333333; /* Dark color for contrast */
+  text-decoration: none;
+  margin: 10px 15px;
+  padding: 5px 10px;
+  font-weight: 400;
+  position: relative;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.headerNav a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 100%;
+  background-color: #9a324f; /* Accent color */
+  height: 2px;
+  transition: right 0.3s ease-out;
+}
+
+.headerNav a:hover {
+  color: #9a324f; /* Accent color on hover */
+  transform: scale(1.05);
+}
+
+.headerNav a:hover::after {
+  right: 0;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  font-size: 30px;
+  color: #9a324f;
+}
+.socialIcons {
+  display: flex;
+  justify-content: center; /* Center icons horizontally */
+  position: absolute;
+  bottom: 20px; /* Position at the bottom */
+  left: 0;
+  right: 0; /* Stretch across the menu */
+  z-index: 2100; /* Ensure it's above other content */
+}
+
+.socialIcons img {
+  margin: 0 10px; /* Space out icons */
+  cursor: pointer;
+  width: 30px; /* Set the width of the icons */
+  height: 30px; /* Set the height of the icons */
+  background-color: transparent; /* Ensuring background is transparent */
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .headerNav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 60%;
+    height: 100vh;
+    background-color: #f3f3f3;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
