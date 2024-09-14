@@ -1,124 +1,80 @@
+/* General Styles */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
   color: black;
   height: 60px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-family: "Poppins", sans-serif;
-  z-index: 1000; /* High z-index */
-<<<<<<< HEAD
-  position: relative; /* Required for z-index to work */
-=======
-  position: sticky; /* Make header stick to the top */
-  top: 0; /* Stick to the very top of the page */
-  backdrop-filter: blur(10px); /* Glass effect */
-  -webkit-backdrop-filter: blur(10px); /* For Safari */
-  background-color: rgba(255, 255, 255, 0.8);
->>>>>>> trial
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .headerLogo img {
-  height: 60px; /* Adjusted to fit within the header */
-  width: 10rem; /* Maintain aspect ratio */
+  height: 60px;
+  width: auto;
   cursor: pointer;
 }
 
+/* Navigation Menu */
 .headerNav {
   display: flex;
   align-items: center;
-  list-style: none;
-  transition: right 0.3s;
-}
-
-.headerNav.open {
-  right: 0;
-  position: fixed;
-  top: 80px; /* Adjusted to the height of the header */
-  width: 60%;
-  background-color: rgba(255, 241, 243, 0.8); /* Semi-transparent white */
-  backdrop-filter: blur(7px); /* Increased blur for a glassier effect */
-  -webkit-backdrop-filter: blur(15px); /* For Safari browser support */
-  flex-direction: column;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bolder shadow for depth */
-  height: 35rem;
-  border: 1px solid rgba(255, 255, 255, 0.3); /* Lighter border for a frosty edge */
-
-  z-index: 2000; /* Higher than the header */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden; /* Ensures content fits within the rounded corners */
-}
-
-.headerNav.open a {
-  text-align: center;
-  /* width: 100%; */
-  margin: 15px 0; /* Increased spacing between items */
-  font-size: 1.2rem; /* Larger font size for readability */
-  transition: color 0.3s ease, transform 0.3s ease;
-  color: #333333; /* Dark color for contrast */
 }
 
 .headerNav a {
-  color: #333333; /* Dark color for contrast */
+  color: #333333;
   text-decoration: none;
-  margin: 10px 15px;
+  margin: 0 15px;
   padding: 5px 10px;
   font-weight: 400;
   position: relative;
-  display: inline-block;
   transition: color 0.3s ease;
 }
 
-.headerNav a::after {
-  content: "";
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  right: 100%;
-  background-color: #9a324f; /* Accent color */
-  height: 2px;
-  transition: right 0.3s ease-out;
-}
-
 .headerNav a:hover {
-  color: #9a324f; /* Accent color on hover */
-  transform: scale(1.05);
-}
-
-.headerNav a:hover::after {
-  right: 0;
-}
-
-.hamburger {
-  display: none;
-  cursor: pointer;
-  font-size: 30px;
   color: #9a324f;
 }
-.socialIcons {
-  display: flex;
-  justify-content: center; /* Center icons horizontally */
-  position: absolute;
-  bottom: 20px; /* Position at the bottom */
-  left: 0;
-  right: 0; /* Stretch across the menu */
-  z-index: 2100; /* Ensure it's above other content */
-}
 
-.socialIcons img {
-  margin: 0 10px; /* Space out icons */
+/* Hamburger Icon */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25px;
+  height: 20px;
+  background: none;
+  border: none;
   cursor: pointer;
-  width: 30px; /* Set the width of the icons */
-  height: 30px; /* Set the height of the icons */
-  background-color: transparent; /* Ensuring background is transparent */
-  object-fit: contain;
+  padding: 0;
 }
 
+.hamburgerLine {
+  width: 100%;
+  height: 2px;
+  background-color: #9a324f;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.hamburger.open .hamburgerLine:nth-child(1) {
+  transform: rotate(45deg) translateY(8px);
+}
+
+.hamburger.open .hamburgerLine:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open .hamburgerLine:nth-child(3) {
+  transform: rotate(-45deg) translateY(-8px);
+}
+
+/* Mobile Styles */
 @media (max-width: 768px) {
   .headerNav {
     position: fixed;
@@ -126,13 +82,38 @@
     right: -100%;
     width: 60%;
     height: 100vh;
-    background-color: #f3f3f3;
+    background-color: rgba(255, 241, 243, 0.95);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(15px);
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 80px 20px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s ease;
+    z-index: 2000;
+    overflow: hidden;
+  }
+
+  .headerNav.open {
+    right: 0;
+  }
+
+  .headerNav a {
+    margin: 15px 0;
+    font-size: 1.2rem;
+    text-align: center;
   }
 
   .hamburger {
-    display: block;
+    display: flex;
+  }
+
+  /* Hide navigation on mobile when not open */
+  .headerNav:not(.open) {
+    display: none;
+  }
+
+  /* Ensure the hamburger icon is above the menu */
+  .hamburger {
+    z-index: 2100;
   }
 }

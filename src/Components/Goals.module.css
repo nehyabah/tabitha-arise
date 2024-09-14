@@ -1,183 +1,73 @@
+/* Goals.module.css */
+
 .container {
-<<<<<<< HEAD
-  background: #2c2c2c;
-  color: #fff;
-  font-family: "Poppins", sans-serif;
-  border-radius: 10px;
-  overflow: hidden;
-  max-width: 1000px;
-  margin: 40px auto;
-  padding: 20px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
-=======
-  max-width: 80%;
-  height: 40vh;
+  padding: 40px 20px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
-  color: #333; /* Dark text color */
-  border-radius: 10px;
-  font-family: "Poppins", sans-serif;
->>>>>>> trial
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
 }
 
 .title {
   text-align: center;
-<<<<<<< HEAD
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .title h1 {
-  color: #fff;
+  font-size: 2.5rem;
   margin-bottom: 10px;
+  color: #e0e0e0;
 }
 
 .title p {
-  color: #aaa;
-  font-size: 1.1em;
+  font-size: 1.2rem;
+  color: #a0a0a0;
 }
 
-.goalsList {
-  list-style-type: none;
-  padding: 0;
+.goalsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
 }
 
 .goalItem {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  position: relative;
-}
-
-.bulletLine {
-  position: absolute;
-  left: -30px;
-}
-
-.bullet {
-  background-color: #76c893;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 10;
-}
-
-.line {
-  background-color: #76c893;
-  width: 2px;
-  position: absolute;
-  top: 20px;
-  bottom: 10px;
-  left: -20px;
-  z-index: 1;
-}
-
-.lastGoalItem .line {
-  display: none;
-}
-
-.goalText {
-  font-size: 1em;
-  color: #ddd;
-  padding-left: 20px;
-  margin-left: 20px;
-  border-left: 2px solid #76c893;
-  padding: 10px 0;
-}
-
-/* Add responsive design styles if necessary */
-@media (max-width: 768px) {
-  .container {
-    padding: 20px;
-  }
-
-  .bulletLine {
-    left: 10px; /* Adjust line and bullet inside the smaller viewport */
-  }
-
-  .line {
-    left: 0;
-  }
-
-  .goalText {
-    padding-left: 35px; /* Give more space for the bullet on small screens */
-    margin-left: 30px;
-=======
-  font-size: 1rem;
-  margin-bottom: 1rem;
-}
-
-.sliderWrapper {
-  margin-top: 2rem;
-
-  padding: 1rem;
-  background: #402e2e; /* White background for the slider */
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  position: relative; /* Add this to make it a positioned container */
-}
-
-.slide {
-  outline: none;
-}
-
-.goal {
-  padding: 1rem;
-  text-align: center;
-  border-bottom: 1px solid #eee; /* Subtle divider between goals */
+  background: linear-gradient(
+    135deg,
+    #0f2027,
+    #203a43,
+    #2c5364
+  ); /* Deep blue to teal gradient */
+  padding: 25px;
+  border-radius: 12px;
+  transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .goalCategory {
   font-size: 1.5rem;
-  font-weight: bold;
-  color: #3e3e3e; /* Accent color */
-  margin-bottom: 0.5rem;
-  text-align: center;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  color: #1abc9c; /* Light teal color for icons */
 }
 
 .goalText {
-  font-size: 1.2rem;
-  line-height: 1.5;
-  color: #444; /* Dark text color */
-  text-align: center;
-  font-weight: 300;
+  font-size: 1rem;
+  color: #d3d3d3;
+  margin-top: 10px;
 }
 
-/* Slick slider overrides */
-.slick-dots {
-  bottom: -20px;
-  li button:before {
-    color: #007aff; /* Accent color for navigation dots */
-  }
-}
-
-.slick-prev:before,
-.slick-next:before {
-  color: #007aff; /* Accent color for navigation arrows */
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .container {
-    padding: 1rem;
-  }
-
-  .title {
-    font-size: 1rem;
-  }
-
-  .sliderWrapper {
-    padding: 0.5rem;
-  }
-
-  .goalCategory {
-    font-size: 1.2rem; /* Adjust font size for smaller screens */
-  }
-
-  .goalText {
-    font-size: 1.5rem; /* Adjust font size for smaller screens */
->>>>>>> trial
-  }
+.goalItem:hover {
+  background: linear-gradient(
+    135deg,
+    #1b2a32,
+    #2c3e50,
+    #34495e
+  ); /* Slightly darker gradient on hover */
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }

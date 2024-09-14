@@ -9,11 +9,7 @@
   text-align: center;
   padding: 20px;
   color: white;
-<<<<<<< HEAD
-  height: 80vh;
-=======
   height: 82vh;
->>>>>>> trial
   position: relative; /* Needed for overlay positioning */
   font-family: "Poppins", sans-serif;
 }

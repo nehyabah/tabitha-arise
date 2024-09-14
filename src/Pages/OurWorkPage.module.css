@@ -1,0 +1,118 @@
+/* OurWorkPage.module.css */
+
+/* General Styles */
+.pageContainer {
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.contentContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  line-height: 1.8;
+}
+
+/* Intro Section */
+.introSection {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.introSection h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #6f1625;
+}
+
+.introSection p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.readMoreButton {
+  background-color: #6f1625;
+  color: #ffffff;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.readMoreButton:hover {
+  background-color: #941c35;
+}
+
+/* Details Section */
+.detailsSection {
+  margin-bottom: 60px;
+}
+
+.detailsSection h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #6f1625;
+}
+
+.detailsSection p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Media Sections */
+.mediaSection,
+.carouselSection {
+  margin-bottom: 60px;
+}
+
+.mediaSection h2,
+.carouselSection h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #6f1625;
+}
+
+.videoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videoContainer video {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+.carousel {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.carousel .slide img {
+  border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .introSection h1 {
+    font-size: 2rem;
+  }
+
+  .detailsSection h2,
+  .mediaSection h2,
+  .carouselSection h2 {
+    font-size: 1.5rem;
+  }
+
+  .readMoreButton {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
