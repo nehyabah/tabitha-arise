@@ -31,12 +31,7 @@
 }
 
 .goalItem {
-  background: linear-gradient(
-    135deg,
-    #0f2027,
-    #203a43,
-    #2c5364
-  ); /* Deep blue to teal gradient */
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
   padding: 25px;
   border-radius: 12px;
   transition: background 0.3s ease, transform 0.3s ease;
@@ -52,7 +47,7 @@
 .icon {
   font-size: 1.5rem;
   margin-right: 10px;
-  color: #1abc9c; /* Light teal color for icons */
+  color: #1abc9c;
 }
 
 .goalText {
@@ -62,12 +57,34 @@
 }
 
 .goalItem:hover {
-  background: linear-gradient(
-    135deg,
-    #1b2a32,
-    #2c3e50,
-    #34495e
-  ); /* Slightly darker gradient on hover */
+  background: linear-gradient(135deg, #1b2a32, #2c3e50, #34495e);
   transform: translateY(-5px);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Add this media query for mobile view */
+@media (max-width: 600px) {
+  .goalsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .title h1 {
+    font-size: 2rem;
+  }
+
+  .title p {
+    font-size: 1rem;
+  }
+
+  .goalCategory {
+    font-size: 1.25rem;
+  }
+
+  .icon {
+    font-size: 1.25rem;
+  }
+
+  .goalText {
+    font-size: 0.9rem;
+  }
 }
