@@ -71,13 +71,13 @@ Vanessa Ifueko is married to Cecil Ikhide Ohiwerei and they are blessed with 2 k
   {
     name: "Jumai Adegbesan",
     image:
-      "https://res.cloudinary.com/djjxmi9xc/image/upload/v1726317862/WhatsApp_Image_2024-09-14_at_13.37.35_rgi3pt.jpg",
+      "https://res.cloudinary.com/djjxmi9xc/image/upload/v1726348481/Jumai_esyl51.jpg",
     description: ``,
   },
   {
     name: "Amina Ochai",
     image:
-      "https://res.cloudinary.com/djjxmi9xc/image/upload/v1726318800/eb95ece2-a3a9-4a94-b56b-36e4982e8d4e_mklqv1.jpg",
+      "https://res.cloudinary.com/djjxmi9xc/image/upload/v1726348485/ibe_ndww5v.jpg",
     description: ``,
   },
 ];
