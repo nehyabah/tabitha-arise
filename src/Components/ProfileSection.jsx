@@ -29,7 +29,7 @@ providing consumer support. She successfully transitioned into social
 care and specialised working with Children in Residential Care. A
 recent graduate of Masters in Social Work complemented by
 qualifications in Applied Social Studies in Social Care, Community
-Development &amp; Leadership, and Economics in addition to possessing
+Development; Leadership, and Economics in addition to possessing
 relevant professional experience gained both from social work
 internships within the Irish health and social care sector and over
 nineteen years working with vulnerable children and families with
@@ -71,7 +71,7 @@ Vanessa Ifueko is married to Cecil Ikhide Ohiwerei and they are blessed with 2 k
   {
     name: "Jumai Adegbesan",
     image:
-      "https://res.cloudinary.com/djjxmi9xc/image/upload/v1726348481/Jumai_esyl51.jpg",
+      "https://res.cloudinary.com/dfjv35kht/image/upload/v1726348735/WhatsApp_Image_2024-09-14_at_22.11.01_ycgrom.jpg",
     description: ``,
   },
   {
