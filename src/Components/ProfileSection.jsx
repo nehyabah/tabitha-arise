@@ -29,7 +29,7 @@ providing consumer support. She successfully transitioned into social
 care and specialised working with Children in Residential Care. A
 recent graduate of Masters in Social Work complemented by
 qualifications in Applied Social Studies in Social Care, Community
-Development; Leadership, and Economics in addition to possessing
+Development, Leadership, and Economics in addition to possessing
 relevant professional experience gained both from social work
 internships within the Irish health and social care sector and over
 nineteen years working with vulnerable children and families with
@@ -46,25 +46,16 @@ within a government agency.`,
     name: "Vanessa Ifueko Ohiwerei",
     image:
       "https://res.cloudinary.com/djjxmi9xc/image/upload/v1726313082/6cf347e0-c667-vanessa-image.jpg",
-    description: `Bar. Vanessa Ifueko Ohiwerei attended the Edo State University, where she obtained an LL.B
-Hons in 1998, and was subsequently called to the Nigerian Bar in 2001. In 2014, she was
-awarded MSc in Management (Business) from Dublin City University (DCU) and that same year
-she also obtained a Graduate certificate in Innovation, Entrepreneurship and Enterprise from
-University College Dublin (UCD). She obtain a Diploma in psychology in 2016 and was
+    description: `Bar. Vanessa Ifueko Ohiwerei attended the Edo State University, where she obtained an LL.B Hons in 1998, and was subsequently called to the Nigerian Bar in 2001. In 2014, she was awarded MSc in Management (Business) from Dublin City University (DCU) and that same year she also obtained a Graduate certificate in Innovation, Entrepreneurship and Enterprise from University College Dublin (UCD). She obtain a Diploma in psychology in 2016 and was
 awarded, HIDIP in Applied Social Studies from Carlow Instituted of Ireland in 2018.
 
 Vanessa Ifueko is a member of the Nigerian Bar Association, an Associate-Member Nigerian
-Institute of Management and Graduate member of Institute of Management Consultant and
-Advisers. Ireland
+Institute of Management and Graduate member of Institute of Management Consultant and Advisers. Ireland
 
-Her previous places of employment in Nigeria include Kogi State Primary Education Board
-(legal adviser), wimemo Ogunde &amp; co (placement), Partnership Investment Company Limited,
-NNB International Bank Plc (now Afribank Nigeria Plc) and Cenoptics business Ltd. In Ireland
-worked with Affinity Solutions Limited, Support Consultant, DAFM, Nua Healthcare. She
-presently work in SJOG.
+Her previous places of employment in Nigeria include Kogi State Primary Education Board (legal adviser), wimemo Ogunde &amp; co (placement), Partnership Investment Company Limited,
+NNB International Bank Plc (now Afribank Nigeria Plc) and Cenoptics business Ltd. In Ireland worked with Affinity Solutions Limited, Support Consultant, DAFM, Nua Healthcare. She presently work in SJOG.
 
-Vanessa had also volunteer her time with Age Action Ireland, where by she taught basic
-computer. She presently children worker in Life Church Portlaoise.
+Vanessa had also volunteer her time with Age Action Ireland, where by she taught basic computer. She presently children worker in Life Church Portlaoise.
 
 Vanessa Ifueko is married to Cecil Ikhide Ohiwerei and they are blessed with 2 kids.`,
   },
