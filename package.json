@@ -12,7 +12,10 @@
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.21.3",
     "react-scripts": "5.0.1",
+    "react-scrollbars-custom": "^4.1.1",
     "react-slick": "^0.30.2",
+    "simplebar": "^6.2.7",
+    "simplebar-react": "^3.2.6",
     "slick-carousel": "^1.8.1",
     "swiper": "^11.1.14",
     "web-vitals": "^2.1.4"

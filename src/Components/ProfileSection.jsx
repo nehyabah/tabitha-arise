@@ -10,13 +10,17 @@ const profiles = [
     name: "Jennifer Alfa-Ogbaje",
     image:
       "https://res.cloudinary.com/djjxmi9xc/image/upload/v1726313082/e5ff538b-d5af-4883-9029-71d7682fd236_fpwfvo.jpg",
-    description: "",
+    description: `Jennifer has a Bsc in Physics and Computer Science from the Federal University of Technology Minna, Nigeria, BA (Hons) Applied Social Studies from Carlow College, MA in Child, Family and Community Studies from Dublin institute of Technology, Masters in Social Work from Trinity College Dublin and a Diploma in Intermediary Studies from University of Limerick.
+ Jennifer worked in the banking industry in Nigeria and managed a robust portfolio in Private and Consumer banking. Over the last two decades, Jennifer successfully transitioned from the field of banking and has gained extensive experience in the field of Social Work, having worked in Medical Social Work, Child Protection and Welfare, Clinical Support Services and Primary Care. As a registered Social Work Practitioner Jennifer adopts a human rights based approach and has worked with varying clients from diverse backgrounds; children from disadvantaged areas, struggling families, vulnerable young adults, women/men in abusive relationships, adults with varying levels of disabilities, individuals with mental health difficulties etc. 
+Jennifer also volunteers in the community, doing advocacy work and promoting community involvement and participation. Jennifer is a certified and experienced trainer and has supported forums providing advocacy, counselling and has engaged in discussions on promoting clients self-efficacy and self-determination. `,
   },
   {
     name: "Oniya Omali",
     image:
       "https://res.cloudinary.com/djjxmi9xc/image/upload/v1726313082/6cf347e0-c667-4a10-a341-19af2fd4ed9e_c0bo8u.jpg",
-    description: "",
+    description: `Oniya Omali is a Wife, a Mother as well as  a Training and Marketing Consultant.  She is the Managing Partner of Workshop Networks Ltd, a Consulting, Developing and Brokering Firm.
+
+She rose up the Banking Industry Corporate ladder  leaving as a Branch Manager with Zenith Bank Plc after 10 years. Oniya is passionate about giving back to the society and as such undertakes volunteer work at Rhema Bible Training Centre, Abuja; Brekete TV and radio station  as well as The Aloe & Ivy Children's Initiative as Director of Operation. She is passionate about human welfare and economic development. Oniya holds a Bachelors Degree in Accounting from Ahmadu Bello University, Zaria and  an MBA from University of Aberdeen, Scotland.`,
   },
   {
     name: "Blessing Okeagu",
@@ -63,7 +67,10 @@ Vanessa Ifueko is married to Cecil Ikhide Ohiwerei and they are blessed with 2 k
     name: "Jumai Adegbesan",
     image:
       "https://res.cloudinary.com/dfjv35kht/image/upload/v1726348735/WhatsApp_Image_2024-09-14_at_22.11.01_ycgrom.jpg",
-    description: ``,
+    description: `Jummai E. Adegbesan has a remarkable career as a Logistics Advisor, Supply Chain Management Specialist/Technical Advisor, Consultant in utilization of drug revolving fund and management of secondary/primary health care facilities in various states in Nigeria and previously Managed a Pharmaceutical Company Chain. A graduate of Ahmadu Bello University, Zaria, she is a member of the Pharmaceutical Society of Nigeria and Fellow of the West African Postgraduate College of Pharmacists. 
+Ms. Adegbesan has in the last two decades carried out extensive work in various states in Nigeria, managing and coordinating logistics to pharmacists in several supported secondary health facilities. She also supports health care providers in numerous primary health care facilities on case management of Malaria, HIV/AIDS, TB and pregnant HIV positive clients to enhance integrated health care delivery system.  
+With her understanding and knowledge of the complex health challenges facing Nigerians, particularly women and children, she has actively carried out extensive community mobilization, promoting community involvement and awareness via primary care teams, setting up clear referral pathways, feedback system and introduction of skills training to clients. She has established and supported forums where therapeutic interventions are provided to clients, engaged in discussions on how best the clients can be empowered and has developed training for clients on key programmes related to maternal/child health, HIV / AIDS, environmental and sanitation and linking them to health facilities to improve well being. 
+She volunteers actively in her local community, working to empower women and promoting child education in disadvantaged areas.`,
   },
   {
     name: "Amina Ochai",
