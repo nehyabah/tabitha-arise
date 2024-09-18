@@ -48,9 +48,9 @@ const AboutPage = () => {
           <p>
             As the need for ongoing support became evident, TAF was registered
             as an NGO in 2019. Our team comprises dynamic Nigerian women
-            residing in Nigeria, Ireland, the United Kingdom, and America. We
-            come from diverse professional backgrounds, including banking,
-            pharmaceuticals, law, and social work.
+            residing in Nigeria, Ireland, the United Kingdom, Canada, and
+            America. We come from diverse professional backgrounds, including
+            banking, pharmaceuticals, law, and social work.
           </p>
         </section>
 
