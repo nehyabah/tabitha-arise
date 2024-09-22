@@ -49,7 +49,7 @@ within a government agency.`,
   {
     name: "Vanessa Ifueko Ohiwerei",
     image:
-      "https://res.cloudinary.com/djjxmi9xc/image/upload/v1726313082/6cf347e0-c667-vanessa-image.jpg",
+      "https://res.cloudinary.com/dfjv35kht/image/upload/v1727008151/WhatsApp_Image_2024-09-22_at_12.25.04_ffzpw3.jpg",
     description: `Bar. Vanessa Ifueko Ohiwerei attended the Edo State University, where she obtained an LL.B Hons in 1998, and was subsequently called to the Nigerian Bar in 2001. In 2014, she was awarded MSc in Management (Business) from Dublin City University (DCU) and that same year she also obtained a Graduate certificate in Innovation, Entrepreneurship and Enterprise from University College Dublin (UCD). She obtain a Diploma in psychology in 2016 and was
 awarded, HIDIP in Applied Social Studies from Carlow Instituted of Ireland in 2018.
 
